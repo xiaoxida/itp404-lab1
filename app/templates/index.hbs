@@ -1,0 +1,8 @@
+{{#each model.data.children as |post|}}
+  <h3>Title: {{post.data.title}}</h3>
+  <p>num_comments: {{post.data.num_comments}}</p>
+  <p>ups: {{post.data.ups}}</p>
+  <p>downs: {{post.data.downs}}</p>
+  <p>domain: {{post.data.domain}}</p>
+  <br>
+{{/each}}
